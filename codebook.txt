@@ -1,0 +1,32 @@
+Following features variables were extracted from the samsun data
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+Each of these had a variable corresponding to it's mean and standard deviation 
+Acc - denotes that the reading comes from accelerometer
+Gyro- denotes that the reading comes from gyroscope
+Body, Gravity - denotes whether the acceleration siganl is body and gravity 
+Jerk - denotes Jerk signals
+Mag - denote the magnitude of these three-dimensional signals calculated using the Euclidean norm 
+suffix t -denotes time domain signals
+suffix f -denotes frequency domain signals
+X,Y,Z - are directions of 3-axial signals
+mean()- in the label indicates that the original variable contained mean of the given signal
+std() - in the label indicates that the original variable contained standard deviation of given signal
+mean_ in the label indicates that the final variable in this modified tidy data is a mean
